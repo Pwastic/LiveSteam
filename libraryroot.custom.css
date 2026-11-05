@@ -1,0 +1,62 @@
+:root {
+  --ls-bg-opacity: 1;
+  --ls-bg-contrast: 1;
+  --ls-bg-scale: 1;
+  --ls-bg-fit: cover;
+  --ls-bg-pos-x: 50%;
+  --ls-bg-pos-y: 50%;
+  --ls-bg-fade: 1.2s;
+}
+
+#livesteam-bg {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  overflow: hidden;
+  background: #000;
+}
+#livesteam-bg .ls-media {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  transform: scale(var(--ls-bg-scale));
+  opacity: var(--ls-bg-opacity);
+  filter: brightness(var(--ls-bg-brightness, 0.7)) contrast(var(--ls-bg-contrast))
+          saturate(var(--ls-bg-saturate, 1)) blur(var(--ls-bg-blur, 0px));
+}
+#livesteam-bg .ls-still {
+  background-image: url("media/bg-fallback.jpg");
+  background-size: var(--ls-bg-fit);
+  background-position: var(--ls-bg-pos-x) var(--ls-bg-pos-y);
+  background-repeat: no-repeat;
+}
+#livesteam-bg .ls-video {
+  object-fit: var(--ls-bg-fit);
+  object-position: var(--ls-bg-pos-x) var(--ls-bg-pos-y);
+  opacity: 0;
+  transition: opacity var(--ls-bg-fade) ease;
+}
+#livesteam-bg.ls-ready .ls-video { opacity: var(--ls-bg-opacity); }
+
+#livesteam-bg.ls-popup .ls-still {
+  background-image: url("media/menu-bg.jpg");
+  background-size: cover;
+  background-position: 50% 35%;
+}
+#livesteam-bg.ls-popup.ls-menu-same .ls-still { background-image: url("media/bg-fallback.jpg"); background-position: 50% 50%; }
+#livesteam-bg.ls-popup.ls-menu-plain .ls-still { background: linear-gradient(160deg, #1b1630 0%, #07070d 100%); }
+
+html.ls-popup [data-ls-layer="tint"] {
+  background-color: rgba(var(--ls-ui-tint-rgb, 10, 14, 22), calc(var(--ls-ui-tint-alpha, 0.45) + 0.1)) !important;
+  background-image: none !important;
+}
+
+[data-ls-layer="tint"]  { background-color: rgba(var(--ls-ui-tint-rgb, 10, 14, 22), var(--ls-ui-tint-alpha, 0.45)) !important; background-image: none !important; }
+[data-ls-layer="clear"] { background-color: transparent !important; background-image: none !important; }
+
+._1ENHEsrSLcTRtPQFl1F-wL._1DvwQt0JN-Ogp_4tVZdkzX,
+._3pXasCUulX4jjqO79s4q_F {
+  background: transparent !important;
+}

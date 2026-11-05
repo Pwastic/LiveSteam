@@ -1,0 +1,7 @@
+html { background: transparent !important; }
+body { background: rgba(var(--ls-ui-tint-rgb, 10, 14, 22), var(--ls-ui-tint-alpha, 0.45)) !important; }
+
+#store_nav_area .store_nav_bg,
+.home_page_body_ctn.has_takeover #store_nav_area .store_nav_bg {
+  background: rgba(var(--ls-ui-tint-rgb, 10, 14, 22), calc(var(--ls-ui-tint-alpha, 0.45) + 0.05)) !important;
+}

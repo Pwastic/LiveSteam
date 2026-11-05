@@ -1,0 +1,278 @@
+{
+    "name": "LiveSteam",
+    "description": "Animated video background with settings for brightness, blur, panels and menus and a converter.",
+    "author": "Pwastic",
+    "version": "1.0.1",
+    "tags": [
+        "Animated",
+        "Custom"
+    ],
+    "Steam-WebKit": "webkit.css",
+    "Patches": [
+        {
+            "MatchRegexString": "^Steam$",
+            "TargetCss": "libraryroot.custom.css",
+            "TargetJs": "libraryroot.custom.js"
+        },
+        {
+            "MatchRegexString": "Supernav$",
+            "TargetCss": "libraryroot.custom.css",
+            "TargetJs": "libraryroot.custom.js"
+        },
+        {
+            "MatchRegexString": "Menu$",
+            "TargetCss": "libraryroot.custom.css",
+            "TargetJs": "libraryroot.custom.js"
+        }
+    ],
+    "Conditions": {
+        "Animation": {
+            "description": "Play the video, or freeze it on a single picture (saves power)",
+            "default": "Animated",
+            "tab": "Background",
+            "values": {
+                "Animated": {
+                    "TargetCss": {
+                        "affects": [
+                            ".*"
+                        ],
+                        "src": "settings/animation-animated.css"
+                    }
+                },
+                "Still": {
+                    "TargetCss": {
+                        "affects": [
+                            ".*"
+                        ],
+                        "src": "settings/animation-still.css"
+                    }
+                }
+            }
+        },
+        "Background video": {
+            "description": "Which video file to use (media/video1.gif, video2.gif, video3.gif)",
+            "default": "First",
+            "tab": "Background",
+            "values": {
+                "First": {
+                    "TargetCss": {
+                        "affects": [
+                            ".*"
+                        ],
+                        "src": "settings/background-video-first.css"
+                    }
+                },
+                "Second": {
+                    "TargetCss": {
+                        "affects": [
+                            ".*"
+                        ],
+                        "src": "settings/background-video-second.css"
+                    }
+                },
+                "Third": {
+                    "TargetCss": {
+                        "affects": [
+                            ".*"
+                        ],
+                        "src": "settings/background-video-third.css"
+                    }
+                }
+            }
+        },
+        "Brightness": {
+            "description": "How bright the background is",
+            "default": "Medium",
+            "tab": "Background",
+            "values": {
+                "Dark": {
+                    "TargetCss": {
+                        "affects": [
+                            ".*"
+                        ],
+                        "src": "settings/brightness-dark.css"
+                    }
+                },
+                "Medium": {
+                    "TargetCss": {
+                        "affects": [
+                            ".*"
+                        ],
+                        "src": "settings/brightness-medium.css"
+                    }
+                },
+                "Bright": {
+                    "TargetCss": {
+                        "affects": [
+                            ".*"
+                        ],
+                        "src": "settings/brightness-bright.css"
+                    }
+                }
+            }
+        },
+        "Blur": {
+            "description": "Blur the background (uses more graphics power)",
+            "default": "Off",
+            "tab": "Background",
+            "values": {
+                "Off": {
+                    "TargetCss": {
+                        "affects": [
+                            ".*"
+                        ],
+                        "src": "settings/blur-off.css"
+                    }
+                },
+                "Low": {
+                    "TargetCss": {
+                        "affects": [
+                            ".*"
+                        ],
+                        "src": "settings/blur-low.css"
+                    }
+                },
+                "High": {
+                    "TargetCss": {
+                        "affects": [
+                            ".*"
+                        ],
+                        "src": "settings/blur-high.css"
+                    }
+                }
+            }
+        },
+        "Color intensity": {
+            "description": "How strong the colors of the background are",
+            "default": "Normal",
+            "tab": "Background",
+            "values": {
+                "Muted": {
+                    "TargetCss": {
+                        "affects": [
+                            ".*"
+                        ],
+                        "src": "settings/color-intensity-muted.css"
+                    }
+                },
+                "Normal": {
+                    "TargetCss": {
+                        "affects": [
+                            ".*"
+                        ],
+                        "src": "settings/color-intensity-normal.css"
+                    }
+                },
+                "Vivid": {
+                    "TargetCss": {
+                        "affects": [
+                            ".*"
+                        ],
+                        "src": "settings/color-intensity-vivid.css"
+                    }
+                }
+            }
+        },
+        "Panel darkness": {
+            "description": "How dark Steam's panels are over the background (lower = see more of the video)",
+            "default": "Medium",
+            "tab": "Panels",
+            "values": {
+                "Light": {
+                    "TargetCss": {
+                        "affects": [
+                            ".*"
+                        ],
+                        "src": "settings/panel-darkness-light.css"
+                    }
+                },
+                "Medium": {
+                    "TargetCss": {
+                        "affects": [
+                            ".*"
+                        ],
+                        "src": "settings/panel-darkness-medium.css"
+                    }
+                },
+                "Heavy": {
+                    "TargetCss": {
+                        "affects": [
+                            ".*"
+                        ],
+                        "src": "settings/panel-darkness-heavy.css"
+                    }
+                }
+            }
+        },
+        "Panel color": {
+            "description": "The color of Steam's panels",
+            "default": "Midnight",
+            "tab": "Panels",
+            "values": {
+                "Midnight": {
+                    "TargetCss": {
+                        "affects": [
+                            ".*"
+                        ],
+                        "src": "settings/panel-color-midnight.css"
+                    }
+                },
+                "Black": {
+                    "TargetCss": {
+                        "affects": [
+                            ".*"
+                        ],
+                        "src": "settings/panel-color-black.css"
+                    }
+                },
+                "Purple": {
+                    "TargetCss": {
+                        "affects": [
+                            ".*"
+                        ],
+                        "src": "settings/panel-color-purple.css"
+                    }
+                },
+                "Forest": {
+                    "TargetCss": {
+                        "affects": [
+                            ".*"
+                        ],
+                        "src": "settings/panel-color-forest.css"
+                    }
+                }
+            }
+        },
+        "Menu background": {
+            "description": "Background of dropdown menus: its own picture (Different), the same as the main one (Same), or a plain dark gradient (Plain)",
+            "default": "Different",
+            "tab": "Panels",
+            "values": {
+                "Different": {
+                    "TargetCss": {
+                        "affects": [
+                            ".*"
+                        ],
+                        "src": "settings/menu-background-different.css"
+                    }
+                },
+                "Same": {
+                    "TargetCss": {
+                        "affects": [
+                            ".*"
+                        ],
+                        "src": "settings/menu-background-same.css"
+                    }
+                },
+                "Plain": {
+                    "TargetCss": {
+                        "affects": [
+                            ".*"
+                        ],
+                        "src": "settings/menu-background-plain.css"
+                    }
+                }
+            }
+        }
+    }
+}

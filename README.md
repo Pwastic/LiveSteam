@@ -19,11 +19,11 @@ https://github.com/user-attachments/assets/4fc85cbf-1ba8-459c-897d-8ecfda689950
 
 ## Features
 
-* **Dynamic Animated Backgrounds:** Bring your Steam client to life with smooth loopable video backgrounds.
-* **Integrated Video Converter:** Includes a built-in conversion utility to easily transcode your favorite clips into optimized formats directly supported by the theme engine.
-* **Transparent Window Workaround:** Utilizes specialized Chromium composition techniques (inspired by **yufengOvO**'s pioneering transparency workarounds) to let your animated backdrops shine seamlessly behind clean glass-morphism panels.
-* **Deep Customization:** Tailor accent colors, panel opacities, and blur intensities directly via the Millennium settings menu.
-* **Full UI Coverage:** Custom styles injected across the Library, Store, Friends list, chat windows, and overlay.
+* **Animated Backgrounds** 
+* **Integrated Video Converter:** Includes a batch file in the folder that convert the video and automatically set it up for you
+* **Transparent Window Workaround:** inspired by **yufengOvO**'s transparency workarounds to let the video show in the backround
+* **contain Customization**
+* **partial UI Coverage:** will be updated to more coverage in the future
 
 ---
 

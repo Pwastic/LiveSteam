@@ -47,7 +47,7 @@ Drag any video onto Convert-Video.bat, or double-click it and pick a file. It th
 
 ## Extra 
 you can also customize the dropdown and panel backround by replacing the " Menu-bg.jpg " found in :
-" C:\Program Files (x86)\Steam\millennium\themes\LiveSteam\media " to any image you want as long as it's 800x800 and .jpg
+" C:\Program Files (x86)\Steam\millennium\themes\LiveSteam\media " to any image you want as long as it's .jpg
 
 ## Acknowledgements & Credits
 SteamClientHomebrew for creating the incredible Millennium modding framework.

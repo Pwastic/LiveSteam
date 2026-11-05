@@ -29,5 +29,4 @@ GOOD TO KNOW
 
 IF SOMETHING GOES WRONG
   The window stays open and shows what happened. Copy the text of the window and send it to whoever is helping you.
-  Status: written for Windows 10/11 with the built-in Windows PowerShell. It was written without access to a
-  Windows PC, so the first run on a real PC is the real test.
+  Status: written for Windows 10/11 with the built-in Windows PowerShell

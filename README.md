@@ -21,7 +21,7 @@ https://github.com/user-attachments/assets/4fc85cbf-1ba8-459c-897d-8ecfda689950
 
 * **Animated Backgrounds** 
 * **Integrated Video Converter:** Includes a batch file in the folder that convert the video and automatically set it up for you
-* **Transparent Window Workaround:** inspired by **yufengOvO**'s transparency workarounds to let the video show in the backround
+* **Transparent Window:** inspired by **yufengOvO**'s transparency workarounds to let the video show in the backround
 * **contain Customization**
 * **partial UI Coverage:** will be updated to more coverage in the future
 

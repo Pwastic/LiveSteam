@@ -7,7 +7,7 @@ customizable animated theme for Steam Client. Built on the **Millennium** framew
 [![Millennium Framework](https://img.shields.io/badge/Millennium-Framework-blue?style=for-the-badge&logo=steam)](https://github.com/SteamClientHomebrew/Millennium)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 
-A fluid, highly customizable animated theme for the desktop Steam Client. Built on the **Millennium** framework, featuring native-feeling UI styling, deep color personalization, and support for immersive motion backgrounds.
+A fluid, customizable animated theme for the desktop Steam Client. Built on the **Millennium** framework
 
 </div>
 

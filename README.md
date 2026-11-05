@@ -41,7 +41,7 @@ Drag any video onto Convert-Video.bat, or double-click it and pick a file. It th
 
 1. Finds your LiveSteam theme folder by itself, and asks you to pick it if it can’t.
 2. Asks three quick questions, each with a suggested answer: which slot (1, 2 or 3), quality (720p small or 1080p sharp) and an optional maximum length.
-2.5. the video that will play can be chosen in the theme configuration option  
+|| the video that will play can be chosen in the theme configuration option  
 3. Converts the video with the same settings I used for yours, checks the result is a valid WebM, and installs it as video1.gif, or the slot you chose.
 4. Keeps your old video as video1.previous and can update the loading picture too.
 

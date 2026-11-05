@@ -12,6 +12,10 @@ A fluid, customizable animated theme for the desktop Steam Client. Built on the 
 </div>
 
 ---
+<img width="488" height="329" alt="image" src="https://github.com/user-attachments/assets/86fe0e38-2708-46e5-8246-24749a778bb4" />
+<img width="1422" height="847" alt="Screenshot 2026-11-05 121942" src="https://github.com/user-attachments/assets/74a7b02e-7809-4e5c-9338-b232f341483d" />
+<img width="1425" height="841" alt="Screenshot 2026-11-05 121955" src="https://github.com/user-attachments/assets/ca0d0eee-4f26-4945-a652-50ecff1b6def" />
+https://github.com/user-attachments/assets/4fc85cbf-1ba8-459c-897d-8ecfda689950
 
 ## Features
 
@@ -41,7 +45,8 @@ Drag any video onto Convert-Video.bat, or double-click it and pick a file. It th
 4. Keeps your old video as video1.previous and can update the loading picture too.
 
 ## Extra 
-you can also customize the dropdown and panel backround by replacing the " Menu-bg.jpg " found in " C:\Program Files (x86)\Steam\millennium\themes\LiveSteam\media " to any image you want as long as it's 800x800 and .jpg
+you can also customize the dropdown and panel backround by replacing the " Menu-bg.jpg " found in :
+" C:\Program Files (x86)\Steam\millennium\themes\LiveSteam\media " to any image you want as long as it's 800x800 and .jpg
 
 ## Acknowledgements & Credits
 SteamClientHomebrew for creating the incredible Millennium modding framework.
